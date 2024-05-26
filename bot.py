@@ -59,7 +59,7 @@ async def _start(event):
             return await xnx.edit(
                 f"**Please Join The Following Channel To Use This Bot 🫡**",
                 buttons=[
-                    [Button.url("🚀 JOIN CHANNEL", url=Var.FORCESUB_CHANNEL_LINK)],
+                    [Button.url("🎎 Channel အရင်ဝင်ပါ မဝင်ရင်မင်းသေမယ်", url=Var.FORCESUB_CHANNEL_LINK)],
                     [
                         Button.url(
                             "♻️ REFRESH",
@@ -85,13 +85,13 @@ async def _start(event):
                 buttons=admin.admin_panel(),
             )
         await event.reply(
-            f"**Enjoy Ongoing Anime's Best Encode 24/7 🫡**",
+            f"**Ongoing Anime များကို နေ့စဉ်တင်ဆက်ပေးနေပါတယ်။ Raw အနေဖြင့်။ 🫡**",
             buttons=[
                 [
-                    Button.url("👨‍💻 DEV", url="t.me/kaif_00z"),
+                    Button.url("👨‍💻 DEV", url="t.me/When_the_night_falls_my_soul_sea"),
                     Button.url(
-                        "💖 OPEN SOURCE",
-                        url="https://github.com/kaif-00z/AutoAnimeBot/",
+                        "🎎 Channel",
+                        url="https://t.me/actanimemm",
                     ),
                 ]
             ],
