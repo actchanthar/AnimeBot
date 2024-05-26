@@ -30,11 +30,11 @@ class AnimeInfo:
         self.CAPTION = """
 **{}
 ━━━━━━━━━━━━━━━
-‣ Language:** `Japanese [ESub]`
-**‣ Quality:** `480p|720p|1080p`
+‣  အသံ: ဂျပန်စကားပြော:** `English Subtitles Soft sub [စာဖိုင်ပါသည်။]`
+**‣ အရည်အသွေး:** `480p|720p|1080p`
 **‣ Season:** `{}`
 **‣ Episode:** `{}`
-**━━━━━━━━━━━━━━━**
+**━Power by @actanimemm━**
 """
         self.proper_name = self.get_proper_name_for_func(name)
         self.name = name
